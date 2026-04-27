@@ -20,6 +20,7 @@
 - [x] Created AI shared memory + multi-agent continuation system files
 - [x] Integrated working Graphify CLI (`graphifyy`) and generated `.graphify` knowledge artifacts
 - [x] Added Graphify project config (`graphify.yaml`, `.graphify.json`) and npm scripts
+- [x] Fixed Netlify deploy blocker (`react-scripts: Permission denied`) via postinstall permission repair + Netlify npm flags fallback
 
 ## Bugs
 

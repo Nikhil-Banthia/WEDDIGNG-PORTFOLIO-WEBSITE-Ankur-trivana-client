@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
+    "postinstall": "node -e \"const fs=require('fs'); const path='node_modules/.bin/react-scripts'; try { if (fs.existsSync(path)) { fs.chmodSync(path, 0o755); console.log('react-scripts executable permission ensured'); } } catch (e) { console.log('postinstall permission fix skipped:', e.message); }\"",
     "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
