@@ -1,0 +1,40 @@
+{
+  "name": "wedding-portfolio-website",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "graphify": "graphify update . --scope all",
+    "graphify:inspect": "graphify scope inspect . --scope auto",
+    "graphify:report": "graphify summary --graph .graphify/graph.json"
+  },
+  "dependencies": {
+    "graphify": "^1.0.0",
+    "lucide-react": "^0.542.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.20",
+    "graphifyy": "^0.4.33",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

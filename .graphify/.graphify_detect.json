@@ -1,0 +1,63 @@
+{
+  "files": {
+    "code": [
+      "CODE.jsx",
+      "postcss.config.js",
+      "src/App.jsx",
+      "src/components/common/FloatingWhatsAppButton.jsx",
+      "src/components/common/PremiumImage.jsx",
+      "src/components/common/QuoteIcon.jsx",
+      "src/components/common/Reveal.jsx",
+      "src/index.js",
+      "src/layouts/MainLayout.jsx",
+      "src/pages/HomePage.jsx",
+      "src/routes/AppRouter.jsx",
+      "src/sections/AboutSection.jsx",
+      "src/sections/ContactSection.jsx",
+      "src/sections/CtaBannerSection.jsx",
+      "src/sections/FooterSection.jsx",
+      "src/sections/GallerySection.jsx",
+      "src/sections/HeroSection.jsx",
+      "src/sections/Navigation.jsx",
+      "src/sections/PackagesSection.jsx",
+      "src/sections/ServicesSection.jsx",
+      "src/sections/StoriesSection.jsx",
+      "src/sections/WhyChooseUsSection.jsx",
+      "src/utils/constants.js",
+      "src/utils/injectStyles.js",
+      "tailwind.config.js"
+    ],
+    "document": [
+      "AGENT_RULES.md",
+      "AI_CONTEXT.md",
+      "CHANGELOG.md",
+      "PROJECT_MEMORY.md",
+      "public/index.html",
+      "README.md",
+      "TASKS.md"
+    ],
+    "paper": [],
+    "image": [],
+    "video": []
+  },
+  "total_files": 32,
+  "total_words": 10242,
+  "needs_graph": false,
+  "warning": "Corpus is ~10,242 words - fits in a single context window. You may not need a graph.",
+  "skipped_sensitive": [],
+  "graphifyignore_patterns": 0,
+  "scope": {
+    "requested_mode": "all",
+    "resolved_mode": "all",
+    "source": "cli",
+    "root": ".",
+    "candidate_count": null,
+    "included_count": 32,
+    "excluded_untracked_count": 0,
+    "excluded_ignored_count": 0,
+    "excluded_sensitive_count": 0,
+    "missing_committed_count": 0,
+    "warnings": [],
+    "recommendation": null
+  }
+}

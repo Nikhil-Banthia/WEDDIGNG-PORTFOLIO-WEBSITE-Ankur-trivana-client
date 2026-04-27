@@ -1,0 +1,10 @@
+# Graphify project configuration
+# Reference: graphifyy CLI profile/scope docs
+
+inputs:
+  # Keep full workspace scanning available for persistent project memory context.
+  scope: all
+
+# Note:
+# Primary AI memory sources tracked in .graphify.json for this workspace:
+# README.md, AI_CONTEXT.md, TASKS.md, CHANGELOG.md, PROJECT_MEMORY.md

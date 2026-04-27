@@ -1,0 +1,24 @@
+{
+  "projectName": "wedding-portfolio-website",
+  "description": "AI shared memory + continuation context for React workspace",
+  "runtime": "react-scripts",
+  "port": 5001,
+  "outputDir": ".graphify",
+  "memorySources": [
+    "README.md",
+    "AI_CONTEXT.md",
+    "TASKS.md",
+    "CHANGELOG.md",
+    "PROJECT_MEMORY.md"
+  ],
+  "updatePolicy": {
+    "appendOnlyLogs": true,
+    "preserveHistory": true,
+    "requiredPostTaskUpdates": [
+      "CHANGELOG.md",
+      "PROJECT_MEMORY.md",
+      "TASKS.md",
+      "AI_CONTEXT.md"
+    ]
+  }
+}
